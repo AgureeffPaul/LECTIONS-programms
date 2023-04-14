@@ -3,6 +3,8 @@
 
 // [3.5, 7.1, 22.9, 2.3, 78.5] -> 76.2
 
+// Сделал сам. Работает. Сдать вовремя не успел.
+
 double[] CreateArrayInt(int size, double min, double max)
 {
     Random rnd = new Random();
