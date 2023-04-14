@@ -1,5 +1,5 @@
 ﻿// Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и 
-// минимальным элементов массива.
+// минимальным элементом массива.
 
 // [3.5, 7.1, 22.9, 2.3, 78.5] -> 76.2
 
@@ -10,12 +10,12 @@ double[] CreateArrayInt(int size, double min, double max)
   
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rnd.NextDouble ();
+        arr[i] = Math.Round (rnd.NextDouble () * (max - min) + min, 2);
     }
     return arr;
 }
 
-void PrintArray(int[] arr)
+void PrintArray(double[] arr)
 {
     Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
@@ -26,27 +26,53 @@ void PrintArray(int[] arr)
     Console.Write("]");
 }
 
-// int Minimum (int[] arr)
-// {
-//      int min = 0;
-//      int i = 1;
-//      while (i < arr.Length)
-//     {
-//         sumNum = sumNum + arr[i];
-//         i = i + 2;
-//     }
-//     return sumNum;
-// }
+double Minimum (double[] arr)
+{
+     double min = arr[0];
+     int i = 0;
+     while (i < arr.Length-1)
+    {
+        if (arr[i] < min) 
+        {
+            min = arr[i]; 
+        }
+    i ++;
+    }
+    return min;
+}
+
+double Maximum (double[] arr)
+{
+     double max = arr[0];
+     int i = 0;
+     while (i < arr.Length-1)
+    {
+        if (arr[i] > max) 
+        {
+            max = arr[i]; 
+        }
+    i ++;
+    }
+    return max;
+}
+
+double Difference (double resMin, double resMax)
+{
+    double diffMaxMin = resMax - resMin;
+    return diffMaxMin;
+}
 
 
 Console.WriteLine("Введите количество чисел в массиве");
 int sizeNNN = Convert.ToInt32(Console.ReadLine());
-int[] array = CreateArrayInt (sizeNNN, -99, 99);
+double[] array = CreateArrayInt (sizeNNN, 0, 99);
 Console.WriteLine("Исходный массив");
-PrintArray (array);
+PrintArray(array);
 Console.WriteLine();
 
-// int result = SumNumbers (array);
-// Console.WriteLine($"Сумма чисел на нечётных позициях (индексах) равна : {result}");
-
-
+double resultMin = Minimum (array);
+Console.WriteLine($"Минимальный элемент : {resultMin}");
+double resultMax = Maximum (array);
+Console.WriteLine($"Максимальный элемент : {resultMax}");
+double finishAnswer = Difference (resultMin, resultMax);
+Console.WriteLine($"Разница Макс - Мин : {finishAnswer}");
