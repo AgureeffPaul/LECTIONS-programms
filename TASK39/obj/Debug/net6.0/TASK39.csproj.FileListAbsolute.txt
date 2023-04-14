@@ -1,0 +1,15 @@
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\bin\Debug\net6.0\TASK39.exe
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\bin\Debug\net6.0\TASK39.deps.json
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\bin\Debug\net6.0\TASK39.runtimeconfig.json
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\bin\Debug\net6.0\TASK39.dll
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\bin\Debug\net6.0\TASK39.pdb
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.csproj.AssemblyReference.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.AssemblyInfoInputs.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.AssemblyInfo.cs
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.dll
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\refint\TASK39.dll
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.pdb
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\TASK39.genruntimeconfig.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK39\obj\Debug\net6.0\ref\TASK39.dll
