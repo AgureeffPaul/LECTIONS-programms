@@ -1,0 +1,5 @@
+C:\Users\Pavel\Desktop\LECTION Programms\TASK43\obj\Debug\net6.0\TASK43.csproj.AssemblyReference.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK43\obj\Debug\net6.0\TASK43.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\Desktop\LECTION Programms\TASK43\obj\Debug\net6.0\TASK43.AssemblyInfoInputs.cache
+C:\Users\Pavel\Desktop\LECTION Programms\TASK43\obj\Debug\net6.0\TASK43.AssemblyInfo.cs
+C:\Users\Pavel\Desktop\LECTION Programms\TASK43\obj\Debug\net6.0\TASK43.csproj.CoreCompileInputs.cache
